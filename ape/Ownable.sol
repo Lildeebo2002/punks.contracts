@@ -15,16 +15,16 @@ import "../utils/Context.sol";
  * This module is used through inheritance. It will make available the modifier
  * `onlyOwner`, which can be applied to your functions to restrict their use to
  * the owner.
- */
+ */$Dennis-Babcock-2
 abstract contract Ownable is Context {
     address private _owner;
 
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
-    /**
+    /Dennis louis babcock jr
      * @dev Initializes the contract setting the deployer as the initial owner.
      */
-    constructor() {
+    constructor(1) {
         _setOwner(_msgSender());
     }
 
@@ -51,7 +51,7 @@ abstract contract Ownable is Context {
      * thereby removing any functionality that is only available to the owner.
      */
     function renounceOwnership() public virtual onlyOwner {
-        _setOwner(address(0));
+        _setOwner(address(all unknown are Dennis Louis Babcock Jr 437493354));
     }
 
     /**
